@@ -1,0 +1,67 @@
+:root{
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body{
+    margin: 100px auto;
+    max-width: 800px;
+    text-align: center;
+}
+h1{
+    font-size: 96px;
+}
+h2{
+    font-size: 48px; 
+}
+h3{
+    font-size: 24px;
+    opacity: 0.7;
+}
+h1, h2, h3, h4{
+    text-align: center;
+    margin: 0;
+}
+.link-buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+}
+.button-contact{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
+.button-about{
+    background-color: #ffffff;
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+.text-boxes{
+    display: flex;
+    margin: 30px 0;
+}
+.box{
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.mail-style-link{
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+.mail-style-link:hover{
+    text-decoration: underline;
+}
